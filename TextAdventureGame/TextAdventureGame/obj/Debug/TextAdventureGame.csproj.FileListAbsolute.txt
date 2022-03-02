@@ -1,0 +1,20 @@
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.exe.config
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.exe
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.pdb
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csproj.AssemblyReference.cache
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.Form1.resources
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.Properties.Resources.resources
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csproj.GenerateResource.cache
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csproj.CoreCompileInputs.cache
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.exe
+C:\Users\Tom Bloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.pdb
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.exe.config
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.exe
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\bin\Debug\TextAdventureGame.pdb
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csprojAssemblyReference.cache
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.Form1.resources
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.Properties.Resources.resources
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csproj.GenerateResource.cache
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.csproj.CoreCompileInputs.cache
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.exe
+C:\Users\tbloomer\OneDrive - C2k\School\AS Level\C#\Visual Studio 2019\TextAdventureGame\TextAdventureGame\obj\Debug\TextAdventureGame.pdb
