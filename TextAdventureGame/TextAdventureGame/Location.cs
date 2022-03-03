@@ -20,6 +20,8 @@ namespace TextAdventureGame
         public string LocationToWest { get; set; }
         public Dictionary<string, Item> Items { get; set; } = new Dictionary<string, Item>();
         public Item ItemRequired { get; set; }
+
+        public string ImageLocation { get; set; }
         #endregion
 
         #region Constructor
@@ -30,6 +32,7 @@ namespace TextAdventureGame
             string locationtoEast = "",
             string locationtoSouth = "",
             string locationtoWest = "",
+            string imageLocation = "",
             List<Item> listitem = null,
             Item itemRequired = null)
         {
@@ -43,6 +46,7 @@ namespace TextAdventureGame
             if (listitem != null)
                 CreateDictionary(listitem);
             ItemRequired = itemRequired;
+            ImageLocation = imageLocation;
         }
         #endregion
         #region Methods

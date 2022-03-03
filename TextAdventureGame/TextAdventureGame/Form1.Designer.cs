@@ -45,6 +45,8 @@
             this.btnUse = new System.Windows.Forms.Button();
             this.btnDrop = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
+            this.pbRoom = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRoom)).BeginInit();
             this.SuspendLayout();
             // 
             // lblGame
@@ -139,7 +141,7 @@
             // btnNorth
             // 
             this.btnNorth.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNorth.Location = new System.Drawing.Point(541, 17);
+            this.btnNorth.Location = new System.Drawing.Point(633, 22);
             this.btnNorth.Name = "btnNorth";
             this.btnNorth.Size = new System.Drawing.Size(75, 75);
             this.btnNorth.TabIndex = 9;
@@ -150,7 +152,7 @@
             // btnSouth
             // 
             this.btnSouth.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSouth.Location = new System.Drawing.Point(541, 162);
+            this.btnSouth.Location = new System.Drawing.Point(633, 167);
             this.btnSouth.Name = "btnSouth";
             this.btnSouth.Size = new System.Drawing.Size(75, 75);
             this.btnSouth.TabIndex = 10;
@@ -161,7 +163,7 @@
             // btnWest
             // 
             this.btnWest.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWest.Location = new System.Drawing.Point(468, 90);
+            this.btnWest.Location = new System.Drawing.Point(560, 95);
             this.btnWest.Name = "btnWest";
             this.btnWest.Size = new System.Drawing.Size(75, 75);
             this.btnWest.TabIndex = 11;
@@ -172,7 +174,7 @@
             // btnEast
             // 
             this.btnEast.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEast.Location = new System.Drawing.Point(614, 90);
+            this.btnEast.Location = new System.Drawing.Point(706, 95);
             this.btnEast.Name = "btnEast";
             this.btnEast.Size = new System.Drawing.Size(75, 75);
             this.btnEast.TabIndex = 12;
@@ -219,11 +221,22 @@
             this.btnReturn.UseVisualStyleBackColor = true;
             this.btnReturn.Click += new System.EventHandler(this.BtnReturn_Click);
             // 
+            // pbRoom
+            // 
+            this.pbRoom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pbRoom.Location = new System.Drawing.Point(397, 87);
+            this.pbRoom.Name = "pbRoom";
+            this.pbRoom.Size = new System.Drawing.Size(140, 95);
+            this.pbRoom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRoom.TabIndex = 17;
+            this.pbRoom.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.pbRoom);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnDrop);
             this.Controls.Add(this.btnUse);
@@ -244,6 +257,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbRoom)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -267,6 +281,7 @@
         private System.Windows.Forms.Button btnUse;
         private System.Windows.Forms.Button btnDrop;
         private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.PictureBox pbRoom;
     }
 }
 

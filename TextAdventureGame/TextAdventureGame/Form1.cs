@@ -22,6 +22,7 @@ namespace TextAdventureGame
         private Dictionary<string, Location> dictLocation = new Dictionary<string, Location>();
         //Item Dictionary
         private Dictionary<string, Item> dictItems = new Dictionary<string, Item>();
+        Item Null = new Item(null,null);
         #endregion
         public Form1()
         {
@@ -83,60 +84,60 @@ namespace TextAdventureGame
             */
             dictLocation.Add("bedroom", new Location("bedroom", "a hotel room",
                                                                 "smelling of stale cigarettes (the room not you..)",
-                                                                "", "coridoor", "", "",
+                                                                "", "coridoor", "", "", "bedroom.jpg",
                                                                 new List<Item> { dictItems["torch"], dictItems["hotel card"] },
                                                                 dictItems["hotel card"]));
 
             dictLocation.Add("coridoor", new Location("coriddor",
                                             "a coridoor",
                                             "a dimly lit passage with a stained carpet",
-                                            "", "lift", "hallway", "bedroom"));
+                                            "", "lift", "hallway", "bedroom","coridoor.jpg"));
 
             dictLocation.Add("lift",    new Location("lift",
                                             "a lift",
                                             "a dangerous structure with a hand-operated sliding door",
-                                            "", "", "", "coridoor"));
+                                            "", "", "", "coridoor", "lift.jpg"));
 
             dictLocation.Add("hallway", new Location("hallway",
                                             "a hallway",
                                             "a narrow area with peeling wallpaper",
-                                            "coridoor", "", "diner", ""));
+                                            "coridoor", "", "diner", "", "hallway.jpg"));
 
             dictLocation.Add("diner", new Location("diner",
                                             "the dining room",
                                             "a large room filled with plastic tables and chairs",
-                                            "hallway", "", "bar", "store"));
+                                            "hallway", "", "bar", "store", "diner.jpg"));
 
             dictLocation.Add("store", new Location("store",
                                             "a store-room",
                                             "a broom cupboard filled with junk",
-                                            "", "diner", "", "",
+                                            "", "diner", "", "", "store.jpg",
                                             new List<Item> { dictItems["knife"], dictItems["iron key"] }));
 
             dictLocation.Add("bar", new Location("bar",
                                         "'The Snug Bar'",
                                         "very classy, even has sawdust on the floor",
-                                        "diner", "games", "", ""));
+                                        "diner", "games", "", "", "bar.jpg"));
 
             dictLocation.Add("games", new Location("games",
                                           "the games lounge",
                                           "a flickering light illumintates the moth-eaten sofas",
-                                          "", "reception", "wc", "bar"));
+                                          "", "reception", "wc", "bar", "games.jpg"));
 
             dictLocation.Add("wc", new Location("wc",
                                        "the toilets",
                                        "a shared facility in worse condition than found at Glastonbury",
-                                       "games", "", "", ""));
+                                       "games", "", "", "", "wc.jpg"));
 
             dictLocation.Add("reception", new Location("reception",
                                               "the recpetion area",
                                               "a delightful receptionist states: Computer says 'No'",
-                                              "", "home", "", "games"));
+                                              "", "home", "", "games", "reception.jpg"));
 
             dictLocation.Add("home", new Location("home",
                                          "your bed at home",
                                          "in a cold sweat, after a bad dream...",
-                                         "", "", "", ""));
+                                         "", "", "", "", "home.jpg"));
             #endregion
 
             #region Player
@@ -174,6 +175,7 @@ namespace TextAdventureGame
             DisplayInventory();
             DisplayCompass();
             DisplayHand();
+            DisplayImage();
         }
 
         private void DisplayStory(string AddText, bool clear = false)
@@ -369,6 +371,11 @@ namespace TextAdventureGame
                     DisplayStory($"\nThe {note.Name} in your hand is {note.Description} which reads:\n'{note.Message}'");
                 }
             }
+        }
+
+        private void DisplayImage()
+        {
+            pbRoom.ImageLocation = currentLocation.ImageLocation;
         }
     }
 }
